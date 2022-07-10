@@ -1,0 +1,18 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input{
+    /* important! - означає що даний стиль має більшу важливість  */
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+input.yellow-input + label{
+    color: #ffffff!important;
+}
+input.yellow-input:focus + label{
+    color: rgb(119, 37, 37)!important;
+}
+input.yellow-input:focus{
+    border-bottom: 1px solid rgb(171, 59, 59)!important;
+    box-shadow: 0 1px 0 0 rgb(170, 58, 58)!important;
+
+}

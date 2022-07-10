@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "mongoUri": "mongodb+srv://root:root@merndata.gzp5t.mongodb.net/mernApp?retryWrites=true&w=majority",
+    "jwtKey": "kaplun secret key for jwt",
+    "baseUrl": "http://localhost:5000"
+}
